@@ -157,7 +157,7 @@ function moveBall() {
 
   // Hit bottom wall - Lose
   if (ball.y + ball.size > canvas.height) {
-    showResultMessage.innerHTML = `Unfortunately You Lost🤪 with Score: ${score}`;
+    showResultMessage.innerHTML = `Unfortunately You Lost🤪with Score: ${score}`;
     startButton.disabled = false;
     showResult.appendChild(showResultMessage);
 
